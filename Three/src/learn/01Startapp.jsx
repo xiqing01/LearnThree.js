@@ -1,6 +1,5 @@
 import { useEffect, useRef } from 'react';
 import * as THREE from 'three';
-import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
 
 function Startapp() {
   const containerRef = useRef(null); // 创建容器引用
@@ -103,7 +102,7 @@ function Startapp() {
   }, [])
 
   return (
-    <div ref={containerRef} className="w-screen h-screen bg-sky-900 overflow-hidden">
+    <div ref={containerRef} className="w-screen h-screen bg-sky-900 overflow-hidden z-0">
       {/* 渲染器将被添加到此容器中 */}
     </div>
   );
