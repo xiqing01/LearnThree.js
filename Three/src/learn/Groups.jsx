@@ -25,16 +25,16 @@ const Groups = () => {
     group.add(cube1) // 将立方体添加到 group3D 中
     group3D1.add(group) // 将 group3D 添加到 group3D1 中
 
-    const geometry2 = new THREE.BoxGeometry( 0.5, 0.5, 0.5)
+    const geometry2 = new THREE.BoxGeometry( 0.3, 0.3, 0.3)
     const material2 = new THREE.MeshNormalMaterial()
     const cube2 = new THREE.Mesh(geometry2, material2)
-    cube2.position.x = 2
+    cube2.position.x = 1.3
     group.add(cube2)
 
     const geometry3 = new THREE.BoxGeometry()
     const material3 = new THREE.MeshNormalMaterial()
     const cube3 = new THREE.Mesh(geometry3, material3)
-    cube3.position.x = -4
+    cube3.position.x = -3
     group3D1.add(cube3)
 
     scene.add(group3D1)
@@ -52,8 +52,8 @@ const Groups = () => {
     const tick = () => {
       const time = clock.getDelta()
       cube1.rotation.z += time * 0.5
-      cube2.rotation.z += time * 0.5
-      cube3.rotation.z += time * 0.5
+      cube2.rotation.y += time * 0.5
+      cube3.rotation.x += time * 0.5
 
       // 调整旋转的速度
       group.rotation.z += time * 0.5; 
