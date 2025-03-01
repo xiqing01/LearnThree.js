@@ -12,6 +12,7 @@
   "dependencies": {
     "@react-three/drei": "^10.0.2",
     "@react-three/fiber": "^9.0.4",
+    "@react-three/postprocessing": "^3.0.4",
     "@tailwindcss/vite": "^4.0.6",
     "gsap": "^3.12.7",
     "react": "^19.0.0",
