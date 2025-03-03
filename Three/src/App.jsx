@@ -5,19 +5,21 @@ import Car from "./learn/Car"
 import Groups from "./learn/Groups"
 import Number from "./learn/Text"
 import Threeinteraction from "./learn/threeinteraction"
+import TrailS from "./learn/Trails"
 
 function App() {
   
 
   return (
     <>
-      <Startapp />
+      {/* <Startapp />
       <Threeinteraction />
       <Groups />
       <Car />
       <Number />
       <Ascii />
-      <Scenes />
+      <Scenes /> */}
+      <TrailS />
     </>
   )
 }

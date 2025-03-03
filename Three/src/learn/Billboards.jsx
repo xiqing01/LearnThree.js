@@ -1,15 +1,19 @@
-// 1. 导入 React 及相关钩子，Canvas 用于创建 three.js 渲染区域
+// 1. 从 React 中导入常用的钩子，用于组件状态管理和生命周期处理
+// - useMemo：用于记忆计算结果，避免在每次渲染时重复执行耗时的计算。
 import { useMemo, useRef, useEffect } from 'react'
+// 从 @react-three/fiber 中导入 Canvas 组件和 useFrame 钩子，用于创建 three.js 渲染区域并在渲染循环中更新场景
 import { Canvas, useFrame } from '@react-three/fiber'
 
-
+// 从 @react-three/postprocessing 中导入 EffectComposer 和 Bloom，用于添加后期处理效果，如光晕效果（Bloom）
 import { EffectComposer, Bloom } from '@react-three/postprocessing'
 
-// 2. 从 drei 中导入 Line 和 OrbitControls 组件
+// 2. 从 drei 库中导入一些便捷的三维组件
+// Line：用于绘制直线；OrbitControls：允许用户通过鼠标控制视角；Stars：添加星空背景
 import { Line, OrbitControls, Stars } from '@react-three/drei'
 
-// 3. 导入 three.js 库，用于创建向量和材质
+// 3. 导入 three.js 库，用于创建向量、材质等底层三维图形对象
 import * as THREE from 'three'
+
 
 // 4. 定义 RingLine 组件，用于生成一个带有颜色动画的圆环线条
 const RingLine = ({ radius = 2, rotation = [0, 0, 0] }) => {
