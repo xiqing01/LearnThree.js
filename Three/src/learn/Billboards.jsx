@@ -193,7 +193,7 @@ const Scenes = () => {
             luminanceThreshold={1}
             intensity={0.8} 
             radius={0.9} />
-      </EffectComposer>
+        </EffectComposer>
       </Canvas>
     </div>
   )
