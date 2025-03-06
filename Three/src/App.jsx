@@ -5,6 +5,7 @@ import Scenes from "./learn/Billboards"
 import Car from "./learn/Car"
 import Groups from "./learn/Groups"
 import Katakana from "./learn/Katakana"
+import Particles from "./learn/ParticlesSphere"
 import Number from "./learn/Text"
 import Threeinteraction from "./learn/threeinteraction"
 import TrailS from "./learn/Trails"
@@ -24,6 +25,7 @@ function App() {
       <TrailS />
       <Katakana />
       <Aurora />
+      <Particles />
     </>
   )
 }
