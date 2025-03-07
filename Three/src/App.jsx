@@ -4,6 +4,7 @@ import Aurora from "./learn/Aurora"
 import Scenes from "./learn/Billboards"
 import Car from "./learn/Car"
 import Groups from "./learn/Groups"
+import HyperbolicHelicoid from "./learn/HyperbolicHelicoid"
 import Katakana from "./learn/Katakana"
 import Particles from "./learn/ParticlesSphere"
 import Number from "./learn/Text"
@@ -26,6 +27,7 @@ function App() {
       <Katakana />
       <Aurora />
       <Particles />
+      <HyperbolicHelicoid />
     </>
   )
 }
