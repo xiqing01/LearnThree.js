@@ -7,6 +7,7 @@ import Groups from "./learn/Groups"
 import HyperbolicHelicoid from "./learn/HyperbolicHelicoid"
 import Katakana from "./learn/Katakana"
 import Particles from "./learn/ParticlesSphere"
+import Supersphere from "./learn/Supersphere"
 import Number from "./learn/Text"
 import Threeinteraction from "./learn/threeinteraction"
 import TrailS from "./learn/Trails"
@@ -23,11 +24,13 @@ function App() {
       <Number />
       <Ascii />
       <Scenes /> */}
-      <TrailS />
+      {/* <TrailS />
       <Katakana />
       <Aurora />
       <Particles />
-      <HyperbolicHelicoid />
+       */}
+       {/* <HyperbolicHelicoid /> */}
+      <Supersphere />
     </>
   )
 }

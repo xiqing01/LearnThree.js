@@ -161,7 +161,7 @@ function RotatingHelicoidPoints() {
     // delta 表示两帧之间的时间差，乘以 0.5 控制旋转速度
     // delta represents the time difference between frames; multiplied by 0.5 to control rotation speed
     groupRef.current.rotation.y += delta * 0.5
-  })
+  });
   
   // 返回包含 HelicoidPoints 组件的 group 元素
   // Return a group element that contains the HelicoidPoints component
@@ -169,7 +169,7 @@ function RotatingHelicoidPoints() {
     <group ref={groupRef}>
       <HelicoidPoints />
     </group>
-  )
+  );
 }
 
 
