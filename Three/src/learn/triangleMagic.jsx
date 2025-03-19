@@ -99,7 +99,7 @@ const Animation = ({ group1, group2 }) => {
   return null
 }
 
-const TetrahedronGroup = () => {
+const TrihedronGroup = () => {
   const group1 = useRef()
   const group2 = useRef()
 
@@ -127,4 +127,4 @@ const TetrahedronGroup = () => {
   )
 }
 
-export default TetrahedronGroup
+export default TrihedronGroup
