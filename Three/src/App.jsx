@@ -12,6 +12,7 @@ import Supersphere from "./learn/Supersphere"
 import Number from "./learn/Text"
 import Threeinteraction from "./learn/threeinteraction"
 import TrailS from "./learn/Trails"
+import ConeGroup from "./learn/triangleMagic"
 
 function App() {
   
@@ -32,7 +33,8 @@ function App() {
        */}
        {/* <HyperbolicHelicoid /> */}
       {/* <Supersphere /> */}
-      <Scene />
+      {/* <Scene /> */}
+      <ConeGroup />
     </>
   )
 }
