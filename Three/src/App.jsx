@@ -7,6 +7,7 @@ import Groups from "./learn/Groups"
 import HyperbolicHelicoid from "./learn/HyperbolicHelicoid"
 import Katakana from "./learn/Katakana"
 import Particles from "./learn/ParticlesSphere"
+import Pixel from "./learn/PixelTransitionEffect"
 import Scene from "./learn/Scene"
 import Supersphere from "./learn/Supersphere"
 import Number from "./learn/Text"
@@ -34,7 +35,8 @@ function App() {
        {/* <HyperbolicHelicoid /> */}
       {/* <Supersphere /> */}
       {/* <Scene /> */}
-      <ConeGroup />
+      {/* <ConeGroup /> */}
+      <Pixel />
     </>
   )
 }
