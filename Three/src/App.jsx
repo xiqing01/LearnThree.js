@@ -10,6 +10,7 @@ import Particles from "./learn/ParticlesSphere"
 import Pixel from "./learn/PixelTransitionEffect"
 import Scene from "./learn/Scene"
 import Supersphere from "./learn/Supersphere"
+import SurfaceSampler from "./learn/SurfaceSampler"
 import Number from "./learn/Text"
 import Threeinteraction from "./learn/threeinteraction"
 import TrailS from "./learn/Trails"
@@ -36,7 +37,8 @@ function App() {
       {/* <Supersphere /> */}
       {/* <Scene /> */}
       {/* <ConeGroup /> */}
-      <Pixel />
+      {/* <Pixel /> */}
+      <SurfaceSampler />
     </>
   )
 }
