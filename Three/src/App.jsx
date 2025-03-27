@@ -6,6 +6,7 @@ import Car from "./learn/Car"
 import Groups from "./learn/Groups"
 import HyperbolicHelicoid from "./learn/HyperbolicHelicoid"
 import Katakana from "./learn/Katakana"
+import Map from "./learn/Map"
 import Particles from "./learn/ParticlesSphere"
 import Pixel from "./learn/PixelTransitionEffect"
 import Scene from "./learn/Scene"
@@ -38,7 +39,8 @@ function App() {
       {/* <Scene /> */}
       {/* <ConeGroup /> */}
       {/* <Pixel /> */}
-      <SurfaceSampler />
+      {/* <SurfaceSampler /> */}
+      <Map />
     </>
   )
 }
