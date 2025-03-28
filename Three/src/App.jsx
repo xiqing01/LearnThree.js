@@ -14,6 +14,7 @@ import Supersphere from "./learn/Supersphere"
 import SurfaceSampler from "./learn/SurfaceSampler"
 import Number from "./learn/Text"
 import Threeinteraction from "./learn/threeinteraction"
+import  RandomScene from "./learn/sphereGeometry"
 import TrailS from "./learn/Trails"
 import ConeGroup from "./learn/triangleMagic"
 
@@ -40,7 +41,8 @@ function App() {
       {/* <ConeGroup /> */}
       {/* <Pixel /> */}
       {/* <SurfaceSampler /> */}
-      <Map />
+      {/* <Map /> */}
+      < RandomScene />
     </>
   )
 }
